@@ -15,4 +15,4 @@ lista2 = (dia & tem_carro)
 print(lista2)
 
 lista3 = (func ^ tem_carro)
-print(lista3)
+print(lista3) 
