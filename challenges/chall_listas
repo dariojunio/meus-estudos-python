@@ -1,0 +1,29 @@
+#desafio com listas
+
+#           0         1        2       3
+frutas = ['Maça', 'Banana', 'Manga', 'Uva'] #puxando da direita pra esquerda é mais facil de encontrar o ultimo item de uma lista
+#          -4        -3       -2      -1
+
+#1 desafio - printar o primeiro e o ultimo item da lista
+print(frutas[0])
+print(frutas[-1])
+
+
+
+#2 desafio - trocar o valor banana por morango, adicionar abacaxi ao final
+frutas.remove('Banana')
+frutas.insert(1, 'Morango')
+#posso usar apenas frutas[1] = 'Morango' para modificar um item
+frutas.append('Abacaxi')
+
+
+
+#3 desafio - remover o valor manga, remover o ultimo item da lista
+frutas.remove('Manga')
+frutas.pop(-1) #posso usar o comando del frutas[-1] tambem
+
+
+
+#4 desafio - imprima cada item da lista com a frase 'eu gosto de'
+for f in frutas:
+  print(f'Eu gosto da fruta {f}')
