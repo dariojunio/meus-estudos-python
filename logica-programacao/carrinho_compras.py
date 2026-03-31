@@ -7,7 +7,6 @@ for i in range(3):
 print("\nCarrinho atual:", carrinho)
 remover_prod = input('Qual produto você quer devolver? ')
 
-# Código blindado contra erros!
 if remover_prod in carrinho:
     carrinho.remove(remover_prod)
     print(f'Produto "{remover_prod}" removido com sucesso!')
